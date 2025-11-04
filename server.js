@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(cors())
 
 app.get("/", (req, res) => {
-  res.send("📚 Welcome to Book Catalog API!");
+  res.send("Welcome to Book Catalog API!");
 });
 
 app.use("/api/users",userRoutes);
